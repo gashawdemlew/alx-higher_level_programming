@@ -3,15 +3,16 @@ import random
 number = random.randint(-10000, 10000)
 
 if number < 0:
-    aux = number % -10
+    remainder = number % (-10)
 else:
-    aux = number % 10
-if aux > 5:
-    print("Last digit of {:d} is {:d} and is greater\
- than 5".format(number, aux))
-elif aux == 0:
-    print("Last digit of {:d} is {:d} and is 0".format(number, aux))
+    remainder = number % 10
+
+if remainder > 5:
+    print("Last digit of {} is {} and is greater than 5"
+          .format(number, remainder))
+elif remainder is 0:
+    print("Last digit of {} is {} and is 0"
+          .format(number, remainder))
 else:
-    print("Last digit of {:d} is {:d} and is less than\
- 6 and not 0".format(number, aux))
- 
+    print("Last digit of {} is {} and is less than 6 and not 0"
+          .format(number, remainder))
