@@ -4,4 +4,3 @@ def number_keys(a_dictionary):
     for x in a_dictionary:
         i += 1
     return (i)
-    
