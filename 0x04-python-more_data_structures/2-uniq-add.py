@@ -8,4 +8,3 @@ def uniq_add(my_list=[]):
     for x in unique_list:
         sum += x
     return (sum)
-    
