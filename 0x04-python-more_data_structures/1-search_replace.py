@@ -7,4 +7,3 @@ def search_replace(my_list, search, replace):
             Newlist[i] = replace
         i += 1
     return (Newlist)
-    
