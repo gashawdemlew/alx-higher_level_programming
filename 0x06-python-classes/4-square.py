@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """3-square.py - A module that contains a Square class"""
 
-
 class Square:
     """defines a square by:
     - private instance variable: size
